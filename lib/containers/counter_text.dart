@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import 'package:apollo/models/appstate.dart';
+import '../models/app_state.dart';
 
 class CounterText extends StatelessWidget {
   @override

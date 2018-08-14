@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 
-import 'package:apollo/models/counter.dart';
+import 'counter.dart';
 
 @immutable
 class AppState {
@@ -12,13 +12,14 @@ class AppState {
 
   AppState copyWith({
     Counter counter,
+    List<String> articles,
   }) =>
       AppState(
         counter: counter ?? this.counter,
       );
 
   @override
-  int get hashCode => counter.hashCode;
+  int get hashCode => counter.hashCode ^ articles.hashCode;
 
   @override
   bool operator ==(Object other) =>

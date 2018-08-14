@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:apollo/containers/countertext.dart';
-import 'package:apollo/containers/incrementbutton.dart';
+import '../containers/counter_text.dart';
+import '../containers/increment_button.dart';
 
 class MyHomePage extends StatelessWidget {
   final String title;

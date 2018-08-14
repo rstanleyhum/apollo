@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:apollo/views/myhomepage.dart';
+import '../views/my_home_page.dart';
 
 class MaterialView extends StatelessWidget {
   @override

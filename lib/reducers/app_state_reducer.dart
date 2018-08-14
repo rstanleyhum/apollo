@@ -1,5 +1,5 @@
-import 'package:apollo/models/appstate.dart';
-import 'package:apollo/reducers/counterreducers.dart';
+import '../models/app_state.dart';
+import '../reducers/counter_reducers.dart';
 
 AppState appReducer(AppState state, dynamic action) => AppState(
       counter: counterReducer(state.counter, action),

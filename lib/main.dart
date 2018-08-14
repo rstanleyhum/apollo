@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:redux/redux.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 
-import 'package:apollo/models/appstate.dart';
-import 'package:apollo/reducers/appstatereducer.dart';
-import 'package:apollo/views/materialview.dart';
+import 'models/app_state.dart';
+import 'reducers/app_state_reducer.dart';
+import 'views/material_view.dart';
 
 void main() {
   final store = Store<AppState>(

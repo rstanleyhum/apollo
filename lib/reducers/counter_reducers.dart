@@ -1,5 +1,5 @@
-import 'package:apollo/actions/counteractions.dart';
-import 'package:apollo/models/counter.dart';
+import '../actions/counter_actions.dart';
+import '../models/counter.dart';
 
 Counter counterReducer(Counter state, dynamic action) {
   if (action is IncrementCounterAction) {
