@@ -12,7 +12,6 @@ class AppState {
 
   AppState copyWith({
     Counter counter,
-    List<String> articles,
   }) =>
       AppState(
         counter: counter ?? this.counter,
