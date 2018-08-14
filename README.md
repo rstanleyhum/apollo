@@ -1,6 +1,7 @@
-# apollo
+# Apollo
 
-A new Flutter project.
+Apollo is the project name for the Flutter version of the cross platform MD Handbook App.
+
 
 ## Getting Started
 
