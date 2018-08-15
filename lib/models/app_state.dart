@@ -18,7 +18,7 @@ class AppState {
       );
 
   @override
-  int get hashCode => counter.hashCode ^ articles.hashCode;
+  int get hashCode => counter.hashCode;
 
   @override
   bool operator ==(Object other) =>
