@@ -1,4 +1,3 @@
-
 class LoadArticles {}
 
 class AddArticlesFromDataAction {
@@ -6,7 +5,8 @@ class AddArticlesFromDataAction {
 
   AddArticlesFromDataAction(this.rawData);
 
-  @override toString() {
+  @override
+  toString() {
     return 'AddArticlesFromDataAction{rawData.length: ${rawData.length}}';
   }
 }

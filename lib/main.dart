@@ -11,7 +11,6 @@ import 'views/home_page.dart';
 
 import 'src/routes.dart';
 
-
 void main() {
   final store = Store<AppState>(
     appReducer,

@@ -8,9 +8,7 @@ class Article {
   Article(this.id, this.fullbody);
 
   @override
-  int get hashCode =>
-      id.hashCode ^
-      fullbody.hashCode;
+  int get hashCode => id.hashCode ^ fullbody.hashCode;
 
   @override
   bool operator ==(Object other) =>
@@ -19,7 +17,6 @@ class Article {
           runtimeType == other.runtimeType &&
           id == other.id &&
           fullbody == other.fullbody;
-
 
   Map<String, Object> toJson() {
     return {

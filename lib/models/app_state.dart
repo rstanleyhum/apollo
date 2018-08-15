@@ -3,7 +3,6 @@ import 'package:meta/meta.dart';
 import 'counter.dart';
 import 'article.dart';
 
-
 @immutable
 class AppState {
   final Counter counter;
@@ -24,8 +23,7 @@ class AppState {
       );
 
   @override
-  int get hashCode => counter.hashCode ^
-  articles.hashCode;
+  int get hashCode => counter.hashCode ^ articles.hashCode;
 
   @override
   bool operator ==(Object other) =>
@@ -36,5 +34,6 @@ class AppState {
           articles == other.articles;
 
   @override
-  String toString() => 'AppState{counter: $counter, articles.length: ${articles.length}}';
+  String toString() =>
+      'AppState{counter: $counter, articles.length: ${articles.length}}';
 }
