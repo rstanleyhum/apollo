@@ -15,7 +15,7 @@ Map<String, Article> addArticlesFromData(
   var newState = Map<String, Article>();
   newState.addAll(state);
   action.rawData.forEach((k, v) {
-    newState[k] = Article(k, v);
+    newState[k] = Article.fromContents(k, v);
   });
   return newState;
 }
