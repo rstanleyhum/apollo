@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../containers/counter_text.dart';
-import '../containers/increment_button.dart';
+import '../../containers/counter_text.dart';
+import '../../containers/increment_button.dart';
 
-import '../src/keys.dart';
+import '../../src/keys.dart';
 
 class HomePage extends StatelessWidget {
   final String title;
