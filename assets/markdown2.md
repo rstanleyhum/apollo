@@ -1,5 +1,31 @@
-# Markdown file number 2
+---
+title: Title of Markdown
+byline: "Stanley Hum"
+date: 2018-06-18T14:04:00-05:00
+intro: "This is the introduction"
+parent: section1.md
+---
 
-## Heading
+# Section Header
 
-This is the second file.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+
+# Section Number Two
+
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.---
+This is the second section.
+This is the second section.
+
+

@@ -1,5 +1,33 @@
-# Third Markdown
+---
+title: Title of Markdown
+byline: "Stanley Hum"
+date: 2018-06-18T14:04:00-05:00
+intro: "This is the introduction"
+parent: section1.md
+related: [
+    ]
+---
 
-## Section Header
+# Section Header
 
-Try out of the markdown third file.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+
+# Section Number Two
+
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.---
+This is the second section.
+This is the second section.
+
+

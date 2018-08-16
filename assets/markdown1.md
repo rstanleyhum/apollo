@@ -1,43 +1,38 @@
 ---
-title: "My first title"
+title: Title of Markdown
+byline: "Stanley Hum"
+date: 2018-06-18T14:04:00-05:00
+intro: "This is the introduction"
+parent: section1.md
+related: [
+    article1.md,
+    article2.md,
+    "section_name:Hello",
+    "[Website](https://www.google.com)",
+    article3.md,
+    ]
 ---
 
-# Markdown title
+# Section Header
 
-## blah
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
+This is the section of the markdown.
 
-This is a test of the emergency broadcast system.
+# Section Number Two
 
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.
+This is the second section.---
+This is the second section.
+This is the second section.
 
-# Second blah
 
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-
-# Third blah
-
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
-this is a test of the emergency broadcast system.
