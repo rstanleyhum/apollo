@@ -21,7 +21,7 @@ Middleware<AppState> _loadArticles() {
     'assets/markdown4.md',
   ];
 
-  return (Store store, action, NextDispatcher next) async {
+  return (Store<AppState> store, action, NextDispatcher next) async {
     store.dispatch("Start LoadArticles");
 
     var resultMap = Map<String, String>();

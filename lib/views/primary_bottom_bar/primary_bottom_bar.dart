@@ -58,34 +58,3 @@ class _ViewModel {
   @override
   int get hashCode => activeIndex.hashCode;
 }
-
-// class PrimaryBottomBar extends BottomNavigationBar {
-//   PrimaryBottomBar() : super(
-//     items: [
-//       NewsTab(),
-//       HandbookTab(),
-//       PharmaTab(),
-//       PhoneTab(),
-//     ],
-//     type: BottomNavigationBarType.fixed,
-//     currentIndex: 0,
-//     onTap: onTabTapped,
-//   );
-
-// }
-
-// void onTabTapped(int index) {
-//   debugPrint(index.toString());
-// }
-
-// class PrimaryBottomTabBar extends TabBar {
-//   PrimaryBottomTabBar()
-//       : super(
-//           tabs: [
-//             NewsTab(),
-//             HandbookTab(),
-//             PharmTab(),
-//             PhoneTab(),
-//           ],
-//         );
-//}

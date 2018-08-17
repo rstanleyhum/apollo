@@ -13,7 +13,7 @@ class AppState {
   AppState({
     this.counter = const Counter(count: 0),
     this.articles = const {},
-    this.ui = const UI(currentViewportIndex: 0),
+    this.ui = const UI(currentViewportIndex: 0, currentArticleIndex: 0),
   });
 
   AppState copyWith({

@@ -3,3 +3,9 @@ class SetViewport {
 
   SetViewport({this.index});
 }
+
+class SetArticleIndex {
+  final int index;
+
+  SetArticleIndex({this.index});
+}

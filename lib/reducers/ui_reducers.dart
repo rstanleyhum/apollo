@@ -5,9 +5,18 @@ UI uiReducer(UI state, dynamic action) {
   if (action is SetViewport) {
     return setViewport(state, action);
   }
+
+  if (action is SetArticleIndex) {
+    return setArticleIndex(state, action);
+  }
+
   return state;
 }
 
 UI setViewport(UI state, SetViewport action) {
-  return UI(currentViewportIndex: action.index);
+  return state.copyWith(currentViewportIndex: action.index);
+}
+
+UI setArticleIndex(UI state, SetArticleIndex action) {
+  return state.copyWith(currentArticleIndex: action.index);
 }
