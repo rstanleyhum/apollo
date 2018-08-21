@@ -9,6 +9,7 @@ import 'news_tab.dart';
 import 'handbook_tab.dart';
 import 'pharma_tab.dart';
 import 'phone_tab.dart';
+import 'settings_tab.dart';
 
 class PrimaryBottomBar extends StatelessWidget {
   PrimaryBottomBar({Key key}) : super(key: key);
@@ -23,6 +24,7 @@ class PrimaryBottomBar extends StatelessWidget {
                 HandbookTab(),
                 PharmaTab(),
                 PhoneTab(),
+                SettingsTab(),
               ],
               type: BottomNavigationBarType.fixed,
               currentIndex: vm.activeIndex,
