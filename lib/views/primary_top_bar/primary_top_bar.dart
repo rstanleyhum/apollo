@@ -6,5 +6,6 @@ class PrimaryTopBar extends AppBar {
   PrimaryTopBar()
       : super(
           title: TopTitleText(),
+          centerTitle: true,
         );
 }
