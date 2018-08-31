@@ -6,6 +6,8 @@
 
 build/
 
+sensitive/
+
 .flutter-plugins
 
 
