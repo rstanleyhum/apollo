@@ -9,6 +9,9 @@ import 'reducers/app_state_reducer.dart';
 
 import 'views/material_base.dart';
 
+import 'services/auth.dart';
+
+
 void main() {
   final store = Store<AppState>(
     appReducer,
@@ -20,13 +23,16 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  final Auth auth = Auth();
+
   final Store<AppState> store;
+
 
   MyApp(this.store);
 
   @override
   Widget build(BuildContext context) => StoreProvider<AppState>(
         store: store,
-        child: MaterialBase(),
+        child: MaterialBase(auth: this.auth),
       );
 }

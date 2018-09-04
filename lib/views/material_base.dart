@@ -5,10 +5,16 @@ import '../actions/article_store_actions.dart';
 import '../models/app_state.dart';
 
 import '../src/routes.dart';
+import '../services/auth.dart';
 
 import 'base_container.dart';
 
 class MaterialBase extends StatelessWidget {
+  MaterialBase({this.auth});
+
+  final BaseAuth auth;
+  
+
   @override
   Widget build(BuildContext context) => MaterialApp(
           title: 'Flutter Demo',
@@ -20,7 +26,7 @@ class MaterialBase extends StatelessWidget {
               return new StoreBuilder<AppState>(
                   onInit: (store) => store.dispatch(LoadArticles()),
                   builder: (context, store) {
-                    return BaseContainer();
+                    return BaseContainer(auth: this.auth);
                   });
             },
           });
